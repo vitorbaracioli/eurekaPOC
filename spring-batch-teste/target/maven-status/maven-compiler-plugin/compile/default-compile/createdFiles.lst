@@ -1,0 +1,6 @@
+com\springbatch\main\ClassWriter.class
+com\springbatch\main\ClassReader.class
+com\springbatch\main\ClassProcessor.class
+com\springbatch\main\BatchConfig.class
+com\springbatch\main\Application.class
+com\springbatch\beans\Employee.class

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springwebtest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: VRBL
+Implementation-Vendor-Id: com.springweb.test
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://projects.spring.io/spring-boot/com.springwe
+ b.test/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

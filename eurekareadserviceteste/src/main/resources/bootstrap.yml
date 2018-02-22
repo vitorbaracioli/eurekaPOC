@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: serviceproxy
+  cloud:
+    config:
+      env: default # optional
+      label: master # optional
+      uri: http://localhost:9090 # optional

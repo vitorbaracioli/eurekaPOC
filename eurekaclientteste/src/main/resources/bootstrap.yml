@@ -1,0 +1,22 @@
+server:
+  port: 0 #RANDOM PORT TO BE USED BY SERVICE DISCOVERY
+ 
+spring:
+  application:
+    name: bookStoreService
+  cloud:
+    config:
+      uri: http://localhost:9090 # optional
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: 'jdbc:sqlserver://127.0.0.1\SQLEXPRESS;databaseName=teste;user=sa;password=@s18752410;'
+    username: vitor
+    password: '@s18752410'
+  jpa:
+    hibernate.ddl-auto: create-drop
+    show-sql: true
+hibernate:
+  dialect: org.hibernate.dialect.SQLServer2012Dialect
+  ddl-auto: create
+ 
+ 
